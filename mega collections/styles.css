@@ -1,0 +1,206 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* HEADER */
+  header {
+    background-color: #fdfdfd;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-area {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    font-size: 1.6rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .nav-links li a:hover {
+    color: #007bff;
+  }
+  
+  /* HERO */
+  .hero {
+    background-color: #f3f3f3;
+    padding: 80px 20px;
+    text-align: center;
+    color: #222;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* PRODUK */
+  .produk {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .produk h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .produk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card img {
+    height: 200px;
+    width: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .card h3 {
+    font-size: 1.1rem;
+    margin: 10px 0 5px;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .harga {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .card button:hover {
+    background-color: #218838;
+  }
+  
+  /* KERANJANG */
+  .keranjang {
+    padding: 40px 20px;
+  }
+  
+  #daftarKeranjang {
+    margin-top: 20px;
+    list-style: none;
+  }
+  
+  #daftarKeranjang li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* TENTANG & KONTAK */
+  .tentang,
+  .kontak {
+    padding: 40px 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .tentang p,
+  .kontak p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  .kontak a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .kontak a:hover {
+    text-decoration: underline;
+  }
+  
+  /* FOOTER */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  footer .social-media img {
+    width: 24px;
+    margin: 0 10px;
+    vertical-align: middle;
+  }
+  
